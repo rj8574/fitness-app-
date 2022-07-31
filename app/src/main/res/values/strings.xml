@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">fitm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="workouts">
+        <item> jumping jacks</item>
+        <item>  push-ups</item>
+        <item> Squats</item>
+        <item>plank </item>
+        <item> triceps dips</item>
+        <item> Lunges</item>
+        <item> squats</item>
+        <item> cobra stretch</item>
+    </string-array>
+    <string-array name="description">
+        <item>30sec</item>
+        <item>30sec</item>
+        <item>30sec</item>
+        <item>30sec</item>
+        <item>30sec</item>
+        <item>30sec</item>
+        <item>30sec</item>
+        <item>30sec</item>
+    </string-array>
+    <string-array name="legs">
+        <item>Squats</item>
+        <item>Burpees</item>
+        <item>glute kick back</item>
+        <item>wall sit</item>
+        <item>walking Lunges</item>
+        <item>split squats</item>
+        <item>sideleg circle right</item>
+        <item>weight squats</item>
+        <item>leg curl</item>
+        <item>ham raise</item>
+    </string-array>
+    <string-array name="shoulder">
+        <item>Stretching</item>
+        <item>Push-Press</item>
+        <item>Rear-Delt row</item>
+        <item>Dumbell press</item>
+        <item>Barbell Press</item>
+        <item>upright</item>
+        <item>arnlod press</item>
+        <item>Rear fly</item>
+        <item>Front raise</item>
+        <item>Lateral raise</item>
+        <item>Push-ups</item>
+    </string-array>
+
+
+</resources>

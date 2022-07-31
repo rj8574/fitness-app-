@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ritik.fitm">
+
+    <uses-feature
+        android:name="android.hardware.sensor.stepcounter"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.stepdetector"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FitGrind"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fitm">
+        <activity android:name=".advance"></activity>
+        <activity android:name=".intermediate" />
+        <activity android:name=".desert" />
+        <activity android:name=".calorie" />
+        <activity android:name=".nonveg" />
+        <activity
+            android:name=".netScreen"
+            android:label="details"
+            android:parentActivityName=".NextWorkout" />
+        <activity android:name=".splashScrren">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".order" />
+        <activity android:name=".WaterCounter" />
+        <activity
+            android:name=".DietLast"
+            android:parentActivityName=".food" />
+        <activity android:name=".food" />
+        <activity android:name=".calender" />
+        <activity android:name=".reminder" />
+        <activity android:name=".BMI_Cal" />
+        <activity android:name=".stepcount" />
+        <activity android:name=".NextWorkout" />
+        <activity android:name=".MainActivity" />
+
+        <receiver android:name="com.AlarmReceiver" />
+    </application>
+
+</manifest>

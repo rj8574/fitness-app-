@@ -1,0 +1,2 @@
+rootProject.name = "fitm"
+include ':app'

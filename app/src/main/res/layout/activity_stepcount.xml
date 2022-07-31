@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stepcount">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="380dp"
+            android:layout_height="300dp"
+            app:lottie_rawRes="@raw/steps"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>.
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steps"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:textColor="#FF5733"/>
+
+        <TextView
+            android:id="@+id/textViewStepCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="#11EE7F "/>
+        <TextView
+            android:id="@+id/textViewStepDector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step Dector"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="#11EE7F "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:text="A Sensor of this type returns the number of steps taken by the user since the last reboot while activated.activity value is reset to zeroonly on a system reboot"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</ScrollView>
